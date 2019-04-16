@@ -19,3 +19,10 @@ Centos 7.x 64位 mini安装,登录系统后在root的文件目录下直接复制
 <li>修改完config.json需要重启程序才能生效。</br>命令格式：</br>
 <p>
 <code>cd /root/smartping;./control restart</code></br>
+```
+@Override
+protected void onDestroy() {
+    EventBus.getDefault().unregister(this);
+    super.onDestroy();
+}
+```  
