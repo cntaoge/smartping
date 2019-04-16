@@ -4,9 +4,9 @@
 <li>自己对页面进行了中文化，方便安装及备用</li>
 <li>演示版地址：http://vpsjk.gxnnhxy.com:8899/</li>
 ----------------------------------------------------------
-安装环境：
-Centos 7.x 64位 mini安装,登录系统后直接复制粘贴下面的命令
-<p></p>
+<br>安装环境：</br>
+<br>Centos 7.x 64位 mini安装,登录系统后直接复制粘贴下面的命令</br>
+<br></br>
 <code>timedatectl set-timezone Asia/Shanghai</code><code></code>
 <code>yum update -y</code>
 <code>yum install git -y</code>
