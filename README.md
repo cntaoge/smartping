@@ -5,28 +5,27 @@
 <li>演示版地址：http://vpsjk.gxnnhxy.com:8899/</li>
 ----------------------------------------------------------
 <br>安装环境：</br>
-<p>Centos 7.x 64位 mini安装,登录系统后直接复制粘贴下面的命令</p>
-<code>timedatectl set-timezone Asia/Shanghai</code><code></code></p>
-<code>yum update -y</code></p>
-<code>yum install git -y</code></p>
-<code>git clone -b master https://github.com/cntaoge/smartping.git</code></p>
-<code>chown -R root:root * smartping</code></p>
-<code>chmod -R 755 *</code></p>
-<code>chmod -R a+x smartping</code></p>
-<code>echo "echo "cd /root/smartping;./control start" >>/etc/rc.d/rc.local</code></p>
-<code>chmod +x /etc/rc.d/rc.local</code></p>
-<code>cd smartping</code></p>
-<code>./control start</code></p>
-#以下为CentOS 7系统防火墙规则
-<p><code>firewall-cmd --zone=public --add-port=8899/tcp --permanent
-<p>firewall-cmd --reload</code>
-</p>
-回车后，在浏览器上打开http://ip:8899 即可访问
-默认密码：smartping
-如需要修改默认的端口和密码，请先在监控平台的配置页面保存过一轮配置后，再用VI命令修改生成的配置文件
-<p></p>
-<code>vi /root/smartping/conf/config.json</code>
-“Port”: 8899,
-“Password”: “smartping”,
-<code>./control stop #停止程序</code>
-<code>./control start #运行程序</code>
+<p>Centos 7.x 64位 mini安装,登录系统后直接复制粘贴下面的命令</br>
+<code>timedatectl set-timezone Asia/Shanghai</code><code></code></br>
+<code>yum update -y</code></br>
+<code>yum install git -y</code></br>
+<code>git clone -b master https://github.com/cntaoge/smartping.git</br>
+<code>chown -R root:root * smartping</br>
+<code>chmod -R 755 *</br>
+<code>chmod -R a+x smartping</br>
+<code>echo "echo "cd /root/smartping;./control start" >>/etc/rc.d/rc.local</br>
+<code>chmod +x /etc/rc.d/rc.local</br>
+<code>cd smartping</br>
+<code>./control start</br>
+#以下为CentOS 7系统防火墙规则</br>
+<code>firewall-cmd --zone=public --add-port=8899/tcp --permanent</br>
+firewall-cmd --reload</code></br>
+
+回车后，在浏览器上打开http://ip:8899 即可访问</br>
+默认密码：smartping</br>
+如需要修改默认的端口和密码，请先在监控平台的配置页面保存过一轮配置后，再用VI命令修改生成的配置文件</br>
+<code>vi /root/smartping/conf/config.json</code></br>
+“Port”: 8899,</br>
+“Password”: “smartping”,</br>
+<code>./control stop #停止程序</code></br>
+<code>./control start #运行程序</code></br>
