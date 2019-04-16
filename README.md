@@ -1,8 +1,8 @@
 # Smartping Version 0.5.0
-<li>程序官方网站： http://smartping.org/</li>
-<li>项目地址： https://github.com/smartping/smartping</li></li>
-<li>自己仅对页面进行了中文化，方便安装及备用</li>
-<li>演示版地址：http://vpsjk.gxnnhxy.com:8899/</li>
+<li>程序官方网站： http://smartping.org/
+<li>项目地址： https://github.com/smartping/smartping
+<li>自己仅对页面进行了中文化，方便安装及备用
+<li>演示版地址：http://vpsjk.gxnnhxy.com:8899/
 ----------------------------------------------------------
 <br>安装环境：</br>
 Centos 7.x 64位 mini安装,登录系统后直接复制粘贴下面的命令：</br>
@@ -16,6 +16,6 @@ Centos 7.x 64位 mini安装,登录系统后直接复制粘贴下面的命令：<
 <p>找到以下字符串并修改为你自己的要求</br>
 <p>“Port”: 8899,</br>
 “Password”: “smartping”,</br>
-<p>重启程序使之生效</br>
+<li>重启程序使之生效</br>
 <p>./control stop #停止程序</br>
 ./control start #运行程序</br>
