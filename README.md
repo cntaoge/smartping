@@ -14,7 +14,7 @@
 <p><code>chown -R root:root * smartping</code></p>
 <p><code>chmod -R 755 *</code></p>
 <p><code>chmod -R a+x smartping</code></p>
-<p><code>echo "cd /root/smartping;./control start" &gt;&gt;/etc/rc.d/rc.local</code></p>
+<p><code>echo "echo "cd /root/smartping;./control start" >>/etc/rc.d/rc.local</code></p>
 <p><code>chmod +x /etc/rc.d/rc.local</code></p>
 <p><code>cd smartping</code></p>
 <p><code>./control start</code></p>
