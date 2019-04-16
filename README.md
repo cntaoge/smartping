@@ -7,20 +7,20 @@
 <p>安装环境：</p>
 <p>Centos 7.x  64位 mini安装,登录系统后直接复制粘贴下面的命令</p>
 
-<li><code>timedatectl set-timezone Asia/Shanghai</li>
-<li>yum update -y</li>
-<li>yum install git -y</li>
-<li>git clone -b master https://github.com/cntaoge/smartping.git</p>
-<li>chown -R root:root * smartping</li>
-<li>chmod -R 755 *</li>
-<li>chmod -R a+x smartping</p>
-<li>echo "cd /root/smartping;./control start" >>/etc/rc.d/rc.local</li>
-<li>chmod +x /etc/rc.d/rc.local</li>
-<li>cd smartping</li>
-<li>./control start</p>
-<li>#以下为CentOS 7系统防火墙规则</li>
-<li>firewall-cmd --zone=public --add-port=8899/tcp --permanent</li>
-<li>firewall-cmd --reload</code> </li>
+<br><code>timedatectl set-timezone Asia/Shanghai</code></br>
+<br><code>yum update -y</code></br>
+<br><code>yum install git -y</code></br>
+<br><code>git clone -b master https://github.com/cntaoge/smartping.git</code></br>
+<br><code>chown -R root:root * smartping</code></br>
+<br><code>chmod -R 755 *</code></br>
+<br><code>chmod -R a+x smartping</code></br>
+<br><code>echo "cd /root/smartping;./control start" >>/etc/rc.d/rc.local</code></br>
+<br><code>chmod +x /etc/rc.d/rc.local</code></br>
+<br><code>cd smartping</code></br>
+<br><code>./control start</code></br>
+<br><code>#以下为CentOS 7系统防火墙规则</code></br>
+<br><code>firewall-cmd --zone=public --add-port=8899/tcp --permanent</code></br>
+<br><code>firewall-cmd --reload</code> </br>
 
 <li>回车后，在浏览器上打开http://ip:8899  即可访问</li>
 <li>默认密码：smartping</li>
