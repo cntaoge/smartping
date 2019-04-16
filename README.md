@@ -8,13 +8,13 @@
 Centos 7.x 64位 mini安装,登录系统后在root的文件目录下直接复制粘贴下面的命令：</br>
 <p>
 <code>timedatectl set-timezone Asia/Shanghai</br>
-yum update -y</br>
-yum install git -y</br>
-git clone -b master https://github.com/cntaoge/smartping.git</br>
-chmod -R 755 *</br>chmod -R a+x smartping</br>
-chmod -R 755 smartping</br>
-cd smartping</br>
-./control start</code></br>
+<br>yum update -y</br>
+<br>yum install git -y</br>
+<br>git clone -b master https://github.com/cntaoge/smartping.git</br>
+<br>chmod -R 755 *</br>chmod -R a+x smartping</br>
+<br>chmod -R 755 smartping</br>
+<br>cd smartping</br>
+<br>./control start</code></br>
 <li>添加到系统开机启动</br>命令格式：</br>
 <p><code>echo "cd /root/smartping;./control start" >>/etc/rc.d/rc.local</br>chmod +x /etc/rc.d/rc.local</code></br>
 <li>以下为CentOS 7系统防火墙规则：如果是在宝塔面板下直接在面板安全项中添加端口</br>命令格式：</br>
