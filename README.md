@@ -20,7 +20,7 @@
 <p><code>./control start</code></p>
 #以下为CentOS 7系统防火墙规则
 <p><code>firewall-cmd --zone=public --add-port=8899/tcp --permanent
-firewall-cmd --reload</code>
+<p>firewall-cmd --reload</code>
 </p>
 回车后，在浏览器上打开http://ip:8899 即可访问
 默认密码：smartping
