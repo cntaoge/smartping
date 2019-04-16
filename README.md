@@ -16,5 +16,6 @@ Centos 7.x 64位 mini安装,登录系统后直接复制粘贴下面的命令：<
 <p>找到以下字符串并修改为你自己的要求</br>
 <p>“Port”: 8899,</br>
 “Password”: “smartping”,</br>
+<p>重启程序使之生效</br>
 <p>./control stop #停止程序</br>
 ./control start #运行程序</br>
