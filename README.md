@@ -11,8 +11,8 @@ Centos 7.x 64位 mini安装,登录系统后直接复制粘贴下面的命令</br
 <p>回车后，在浏览器上打开http://ip:8899 即可访问</br>
 默认密码：smartping</br>
 如需要修改默认的端口和密码，请先在监控平台的配置页面保存过一轮配置后，再用VI命令修改生成的配置文件</br>
-vi /root/smartping/conf/config.json</br>
-“Port”: 8899,</br>
+<p>vi /root/smartping/conf/config.json</br>
+<p>“Port”: 8899,</br>
 “Password”: “smartping”,</br>
 <p>./control stop #停止程序</br>
 ./control start #运行程序</br>
