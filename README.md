@@ -2,11 +2,11 @@
 <li>程序官方网站： http://smartping.org/
 <li>项目地址： https://github.com/smartping/smartping
 <li>自己仅对页面进行了中文化，方便安装及备用
-<li>演示版地址：http://vpsjk.gxnnhxy.com:8899/
+<li>演示版地址：http://vpsjk.gxnnhxy.com:8899/</br>
 ----------------------------------------------------------
 <br>安装环境：</br>
 Centos 7.x 64位 mini安装,登录系统后直接复制粘贴下面的命令：</br>
-<p><br>timedatectl set-timezone Asia/Shanghai</br>yum update -y</code></br>yum install git -y</code></br>git clone -b master https://github.com/cntaoge/smartping.git</br>chmod -R 755 *</br>chmod -R a+x smartping</br>echo "echo "cd /root/smartping;./control start" >>/etc/rc.d/rc.local</br>chmod +x /etc/rc.d/rc.local</br>cd smartping</br>./control start</br>
+<p>timedatectl set-timezone Asia/Shanghai</br>yum update -y</code></br>yum install git -y</code></br>git clone -b master https://github.com/cntaoge/smartping.git</br>chmod -R 755 *</br>chmod -R a+x smartping</br>echo "echo "cd /root/smartping;./control start" >>/etc/rc.d/rc.local</br>chmod +x /etc/rc.d/rc.local</br>cd smartping</br>./control start</br>
 <p>#以下为CentOS 7系统防火墙规则：</br>
 <p>firewall-cmd --zone=public --add-port=8899/tcp --permanent</br>firewall-cmd --reload</br>
 <p>回车后，在浏览器上打开http://ip:8899 即可访问</br>
