@@ -17,6 +17,4 @@ Centos 7.x 64位 mini安装,登录系统后在root的文件目录下直接复制
 <p>“Port”: 8899,</br>“Password”: “smartping”,</br>
 <li>修改完config.json需要重启程序才能生效。</br>命令格式：</br>
 <p>
-```javascript
-document.getelementbyid("myH1").innerHTML="cd /root/smartping;./control restart</br>";//重启程序
-```
+<code>cd /root/smartping;./control restart</br>
