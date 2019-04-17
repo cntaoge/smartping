@@ -29,7 +29,10 @@ firewall-cmd --zone=public --add-port=8899/tcp --permanent
 vi /root/smartping/conf/config.json
 <p>
 <li>找到以下字符串并修改为你自己的要求</br>
-<p>“Port”: 8899,</br>“Password”: “smartping”,</br>
-<li>修改完config.json需要重启程序才能生效；命令格式：</br>
+<p>
+“Port”: 8899,</br>“Password”: “smartping”,</br>
+<li>修改完config.json需要重启程序才能生效；命令格式：,/li></br>
 <p>
 cd /root/smartping;./control restart
+<p>
+系统的防火墙检查没问题了，还得注意一些云系统的第二道防火墙，一些云系统还有一些类似安全组的防火墙设置，那边也是需要打开相应的端口。
