@@ -30,6 +30,6 @@ vi /root/smartping/conf/config.json
 <p>
 <li>找到以下字符串并修改为你自己的要求</br>
 <p>“Port”: 8899,</br>“Password”: “smartping”,</br>
-<li>修改完config.json需要重启程序才能生效。</br>命令格式：</br>
+<li>修改完config.json需要重启程序才能生效；命令格式：</br>
 <p>
 cd /root/smartping;./control restart
