@@ -6,7 +6,6 @@
 ----------------------------------------------------------
 <li>安装环境：</br>
 Centos 7.x 64位 mini安装,登录系统后在root的文件目录下直接复制粘贴下面的命令：</br>
-<code>
 timedatectl set-timezone Asia/Shanghai</br>yum update -y
 <br>yum install git -y
 <br>git clone -b master https://github.com/cntaoge/smartping.git
@@ -25,4 +24,3 @@ vi /root/smartping/conf/config.json
 <p>“Port”: 8899,</br>“Password”: “smartping”,</br>
 <li>修改完config.json需要重启程序才能生效。</br>命令格式：</br>
 cd /root/smartping;./control restart
-</code>
