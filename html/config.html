@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cn">
 <head>
 <meta charset="utf-8">
 <title>SmartPing 网络监控平台</title>
@@ -126,7 +126,7 @@
             </div> <!-- /control-group -->
 
             <div class="control-group"  style="float: left">
-              <label class="control-label" for="Thdavgdelay">平均延时(毫秒)</label>
+              <label class="control-label" for="Thdavgdelay">平均延迟(毫秒)</label>
               <div class="controls">
                 <input type="text"  class="span1" id="Thdavgdelay" value="">
               </div> <!-- /controls -->
@@ -190,7 +190,7 @@
                       <th> 类型 </th>
                       <th> <a title="Check Period">检测时间(秒)</a> </th>
                       <th> <a title="Loss Percent">丟包率(%)</a>  </th>
-                      <th> <a title="Average Delay">平均延时(毫秒)</a>  </th>
+                      <th> <a title="Average Delay">平均延迟(毫秒)</a>  </th>
                       <th> <a title="Occur Times">发生次数(t)</a>  </th>
                       <th>  </th>
                     </tr>
@@ -288,14 +288,14 @@
             success: function( retdata ) {
                 //console.log(retdata)
                 if (retdata["status"]=="true"){
-                    alert("Config saved success!")
+                    alert("配置保存成功!")
                 }else{
-                    alert("Config saved fail ("+retdata["info"]+")")
+                    alert("配置保存失败 ("+retdata["info"]+")")
                 }
             },
             timeout: 10*1000
           }).fail( function( xhr, status ) {
-            alert("Config saved fail (api error!)")
+            alert("配置保存失败 (api error!)")
           });
     }
 
