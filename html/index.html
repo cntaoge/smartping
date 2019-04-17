@@ -174,7 +174,7 @@
               }],
               series: [
                   {
-                      name: 'avgDelay',
+                      name: '平均延迟',
                       type: 'line',
                       data: [],
                       itemStyle: {
@@ -193,7 +193,7 @@
                       }
                   },
                   {
-                      name: 'lossPk',
+                      name: '丢包率',
                       type: 'line',
                       yAxisIndex: 1,
                       data: [],
@@ -231,10 +231,10 @@
                               data: data.lastcheck
                           },
                           series: [{
-                              name: 'avgDelay',
+                              name: '平均延迟',
                               data: data.avgdelay
                           },{
-                              name: 'lossPk',
+                              name: '丢包率',
                               data: data.losspk
                           }]
                       });
@@ -259,19 +259,19 @@
                           data: data.lastcheck
                       },
                       series: [{
-                          name: 'maxDelay',
+                          name: '最高延迟',
                           data: data.maxdelay
                       },
                           {
-                              name: 'minDelay',
+                              name: '最低延迟',
                               data: data.mindelay
                           },
                           {
-                              name: 'avgDelay',
+                              name: '平均延迟',
                               data: data.avgdelay
                           },
                           {
-                              name: 'lossPk',
+                              name: '丟包率',
                               data: data.losspk
                           }]
                   });
@@ -289,19 +289,19 @@
                     data: data.lastcheck
                 },
                 series: [{
-                    name: 'maxDelay',
+                    name: '最高延迟',
                     data: data.maxdelay
                 },
                     {
-                        name: 'minDelay',
+                        name: '最低延迟',
                         data: data.mindelay
                     },
                     {
-                        name: 'avgDelay',
+                        name: '平均延迟',
                         data: data.avgdelay
                     },
                     {
-                        name: 'lossPk',
+                        name: '丢包率',
                         data: data.losspk
                     }]
             });
@@ -335,11 +335,11 @@
         dataZoom: [{}],
         yAxis: [{
             type: 'value',
-            name: 'Delay',
+            name: '延迟',
             position: 'left'
         }, {
             type: 'value',
-            name: 'Package(LOSS)',
+            name: '丢包率',
             min: 0,
             max: 100,
             position: 'right',
@@ -348,7 +348,7 @@
             }
         }],
         series: [{
-            name: 'maxDelay',
+            name: '最高延迟',
             type: 'line',
             animation: false,
             areaStyle: {
@@ -362,7 +362,7 @@
             data: []
         },
             {
-                name: 'minDelay',
+                name: '最低延迟',
                 type: 'line',
                 animation: false,
                 areaStyle: {
@@ -376,7 +376,7 @@
                 data: []
             },
             {
-                name: 'avgDelay',
+                name: '平均延迟',
                 type: 'line',
                 data: [],
                 itemStyle: {
@@ -395,7 +395,7 @@
                 }
             },
             {
-                name: 'lossPk',
+                name: '丢包率',
                 type: 'line',
                 yAxisIndex: 1,
                 data: [],
