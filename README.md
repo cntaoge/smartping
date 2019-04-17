@@ -15,14 +15,16 @@ timedatectl set-timezone Asia/Shanghai</br>yum update -y
 <br>cd smartping
 <br>./control start
 <p>
-<li>添加到系统开机启动</br>命令格式：</br>
+<li>添加到系统开机启动,命令格式：</br>
+<p>
 echo "cd /root/smartping;./control start" >>/etc/rc.d/rc.local</br>chmod +x /etc/rc.d/rc.local
 <p>
-<li>以下为CentOS 7系统防火墙规则：如果是在宝塔面板下直接在面板安全项中添加端口</br>命令格式：</br>
+<li>以下为CentOS 7系统防火墙规则：如果是在宝塔面板下直接在面板安全项中添加端口;命令格式：</br>
+<p>
 firewall-cmd --zone=public --add-port=8899/tcp --permanent
 <br>firewall-cmd --reload
 <p>
-<li>访问监控平台页面</br>在浏览器上打开http://ip:8899 即可访问</br>默认密码：smartping</br>如需要修改默认的端口和密码，请先在监控平台的配置页面保存过一次设置后，系统会在smartping/conf/的目录下生成当前的配置文件config.json，再用VI命令修改生成的配置文件，如果是在宝塔面板下直接在面板文件管理中修改config.json。<br> 命令格式：</br>
+<li>访问监控平台页面</br>在浏览器上打开http://ip:8899 即可访问;默认密码：smartping</br>如需要修改默认的端口和密码，请先在监控平台的配置页面保存过一次设置后，系统会在smartping/conf/的目录下生成当前的配置文件config.json，再用VI命令修改生成的配置文件，如果是在宝塔面板下直接在面板文件管理中修改config.json 命令格式：</br>
 <p>
 vi /root/smartping/conf/config.json
 <p>
