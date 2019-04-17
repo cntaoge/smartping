@@ -2,7 +2,8 @@
 <li>程序官方网站： http://smartping.org/
 <li>项目地址： https://github.com/smartping/smartping
 <li>自己仅对页面进行了中文版，方便安装及备用。
-<li>中文版演示版地址：http://vpsjk.gxnnhxy.com:8899/</br>
+<li>中文版演示版地址：http://vpsjk.gxnnhxy.com:8899/
+<li>欢迎大家一起交流，主站上有多种联系方式：www.gxnnhxy.com
 ------------------------------------------------------------------------
 <li>安装环境：</br>
 Centos 7.x 64位 mini安装,登录系统后在root的文件目录下直接复制粘贴下面的命令：</br>
@@ -13,6 +14,7 @@ timedatectl set-timezone Asia/Shanghai</br>yum update -y
 <br>chmod -R a+x smartping
 <br>chmod -R 755 smartping
 <br>cd /root/smartping;./control start
+<br>ok
 <p>
 <li>添加到系统开机启动。命令格式：</br>
 <p>
