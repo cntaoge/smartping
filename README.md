@@ -10,11 +10,9 @@ Centos 7.x 64位 mini安装,登录系统后在root的文件目录下直接复制
 timedatectl set-timezone Asia/Shanghai</br>yum update -y
 <br>yum install git -y
 <br>git clone -b master https://github.com/cntaoge/smartping.git
-<br>chmod -R 755 *
-chmod -R a+x smartping
+<br>chmod -R a+x smartping
 <br>chmod -R 755 smartping
-<br>cd smartping
-<br>./control start
+<br>cd /root/smartping;./control start
 <p>
 <li>添加到系统开机启动。命令格式：</br>
 <p>
