@@ -17,7 +17,7 @@
 		{
 			"Name": "本机",
 			"Addr": "127.0.0.1",
-			"Type": "CS",
+			"Type": "C",
 			"Thdchecksec": 300,
 			"Thdoccnum": 3,
 			"Thdavgdelay": 200,
