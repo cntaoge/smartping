@@ -15,9 +15,9 @@
 	"Tsymbolsize": "70",
 	"Targets": [
 		{
-			"Name": "谷哥DNS",
-			"Addr": "8.8.8.8",
-			"Type": "C",
+			"Name": "本机",
+			"Addr": "127.0.0.1",
+			"Type": "CS",
 			"Thdchecksec": 300,
 			"Thdoccnum": 3,
 			"Thdavgdelay": 200,
