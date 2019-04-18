@@ -1,8 +1,9 @@
 # Smartping Version 0.5.0
+<li>感谢开源项目Smartping
 <li>程序官方网站： http://smartping.org/
 <li>项目地址： https://github.com/smartping/smartping
 <li>自己仅对页面进行了中文版，方便安装及备用。
-<li>中文版演示版地址：http://vpsjk.gxnnhxy.com:8899/
+<li>中文版演示版地址：http://106.12.110.166:8899/
 <li>欢迎大家一起交流，主站上有多种联系方式：www.gxnnhxy.com
 <br>------------------------------------------------------------------------
 <li>安装环境：</br>
