@@ -7,8 +7,8 @@
 <li>欢迎大家一起交流，主站上有多种联系方式：www.gxnnhxy.com
 <br>------------------------------------------------------------------------
 <li>安装环境：</br>
-Centos 7.x 64位 mini安装,脚本里的命令是自动安装在/home目录下，登录SSH后可以直接复制粘贴下面的命令：</br>
-<p>
+Centos 7.x 64位 mini安装,脚本里的命令是自动安装在/home目录下，登录SSH后可以直接复制粘贴下面的命令：
+<br>
 <br>timedatectl set-timezone Asia/Shanghai
 <br>rpm -Uvh http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
 <br>yum install golang -y
