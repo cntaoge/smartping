@@ -9,13 +9,21 @@
 <li>安装环境：</br>
 Centos 7.x 64位 mini安装,登录系统后在root的文件目录下直接复制粘贴下面的命令：</br>
 <p>
-timedatectl set-timezone Asia/Shanghai</br>yum update -y
-<br>yum install git -y
-<br>git clone -b master https://github.com/cntaoge/smartping.git
-<br>chmod -R a+x smartping
-<br>chmod -R 755 smartping
-<br>cd /root/smartping;./control start
-<br>ok
+timedatectl set-timezone Asia/Shanghai
+rpm -Uvh http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
+yum install golang -y
+cd /home
+git clone -b master https://github.com/cntaoge/smartping.git 
+chmod -R a+x /home/smartping
+chmod -R 755 /home/smartping
+chmod 777 /home/smartping/control
+cd /home/smartping;./control start
+firewall-cmd --zone=public --add-port=8899/tcp --permanent 
+firewall-cmd --reload
+echo "cd /home/smartping;./control start" >>/etc/rc.d/rc.local
+chmod +x /etc/rc.d/rc.local
+cd /home/smartping;./control restart
+ok
 <p>
 <li>添加到系统开机启动。命令格式：</br>
 <p>
