@@ -7,7 +7,7 @@
 	"Alerthistory": 7,
 	"Alertcycle": 1,
 	"Alertsound": "/alert.mp3",
-	"Thdchecksec": 300,
+	"Thdchecksec": 60,
 	"Thdoccnum": 3,
 	"Thdavgdelay": 200,
 	"Thdloss": 30,
