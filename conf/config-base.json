@@ -25,7 +25,7 @@
 		},
 		{
 			"Name": "南宁电信",
-			"Addr": "180.138.196.238",
+			"Addr": "220.173.20.1",
 			"Type": "C",
 			"Thdchecksec": 60,
 			"Thdoccnum": 3,
