@@ -27,8 +27,8 @@
 <li>访问监控平台页面</br>
 <br>在浏览器上打开  http://ip:8899   即可访问；默认密码：smartping</br>如需要修改默认的端口和密码，请先在监控平台的配置页面保存过一次设置后，系统会在smartping/conf/的目录下生成当前的配置文件config.json，修改配置前先把程序停止了再用VI命令修改生成的配置文件，如果是在宝塔面板下直接在面板文件管理中修改config.json。命令格式：</br>
 <p>
-<br>cd /home/smartping;./control stop
-<br>vi /home/smartping/conf/config.json
+<br><pre>cd /home/smartping;./control stop
+<br>vi /home/smartping/conf/config.json</pre>
 <p>
 <li>找到以下字符串并修改为你自己的要求</br>
 <p>
