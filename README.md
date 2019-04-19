@@ -15,12 +15,11 @@ Centos 7.x 64位 mini安装其它系统未测试，脚本里的命令是自动�
 <br>cd /home
 <br>git clone -b master https://github.com/cntaoge/smartping.git 
 <br>chmod -R 777 /home/smartping
-<br>cd /home/smartping;./control start
 <br>firewall-cmd --zone=public --add-port=8899/tcp --permanent 
 <br>firewall-cmd --reload
 <br>echo "cd /home/smartping;./control start" >>/etc/rc.d/rc.local
 <br>chmod +x /etc/rc.d/rc.local
-<br>cd /home/smartping;./control restart
+<br>cd /home/smartping;./control start
 <br>ok
 <p>
 <br>上面的命令已经含了添加防火墙、添加启动项、目录权限、自定义安装源、修改时区、GO语言；安装完成直接访问监控平台页面就可以了。
