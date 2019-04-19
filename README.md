@@ -14,9 +14,7 @@ Centos 7.x 64位 mini安装其它系统未测试，脚本里的命令是自动�
 <br>yum install golang -y
 <br>cd /home
 <br>git clone -b master https://github.com/cntaoge/smartping.git 
-<br>chmod -R a+x /home/smartping
-<br>chmod -R 755 /home/smartping
-<br>chmod 777 /home/smartping/control
+<br>chmod -R 777 /home/smartping
 <br>cd /home/smartping;./control start
 <br>firewall-cmd --zone=public --add-port=8899/tcp --permanent 
 <br>firewall-cmd --reload
