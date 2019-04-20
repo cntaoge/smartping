@@ -10,7 +10,6 @@
 <br>Centos 7.x 64位 mini安装其它系统未测试，脚本里的命令是自动安装在/home目录下，登录SSH后可以直接复制粘贴下面的命令：
 <br>
 <pre>timedatectl set-timezone Asia/Shanghai
-rpm -Uvh http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
 yum install golang -y
 cd /home
 git clone -b master https://github.com/cntaoge/smartping.git 
