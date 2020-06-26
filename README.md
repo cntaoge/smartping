@@ -11,7 +11,8 @@
 <br>
 <pre>
 timedatectl set-timezone Asia/Shanghai
-yum install golang -y
+yum install -y epel-release
+yum install -y golang git
 cd /home
 git clone -b master https://github.com/cntaoge/smartping.git 
 chmod -R 755 /home/smartping/
